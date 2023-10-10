@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+body {
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 15px;
+}
+.box {
+    position: relative;
+    margin:13rem auto;
+    width: 65rem;
+    height: 15rem;
+    font-size: 3rem;
+    color: #5799d5;
+    text-align: center;
+    line-height: 15rem;
+    background-color: #fff;
+    border: 3px solid #e1e1e1;
+    border-radius: 0.6rem;
+}
+.back {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    display: inline-block;
+    width: 4rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 0.6rem;
+    background-color: #5799d5;
+}

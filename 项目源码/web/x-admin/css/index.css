@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+body {
+    background-image: url(../images/bg-hosptial.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 15px;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.box {
+    position: relative;
+    width: 25rem;
+    height: 12rem;
+    top: 30%;
+    left: 58%;
+    border-radius: 0.6rem;
+    border: 2px solid rgb(174, 173, 173);
+}
+
+.msg-title {
+    /* background-color: #F8CBAD; */
+    position: absolute;
+    float: left;
+    width: 14rem;
+    padding: 0.6rem;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    left: 10%;
+    cursor: default;
+    margin-left: 10%;
+}
+
+.box form {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.box1 {
+    height: 1.7rem;
+    width: 15rem;
+    margin-bottom: 5%;
+    background-color: #fff;
+    border: 2px solid #5799D5;
+    border-radius: 0.5rem;
+}
+
+.box1 .user {
+    float: left;
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.box1 > input {
+    float: left;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    width: 13.3rem;
+}
+
+.box2 {
+    height: 1.7rem;
+    width: 15rem;
+    margin-bottom: 5%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 2px solid #5799D5;
+}
+
+.box2 .pass {
+    float: left;
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.box2 > input {
+    float: left;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    width: 13.3rem;
+}
+
+.username {
+    border: none;
+}
+
+.password {
+    margin-bottom: 5%;
+    border: none;
+}
+
+.submit {
+    position: absolute;
+    margin-top: 10%;
+    left: 5%;
+    width: 14rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: rgb(111, 170, 233);
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
